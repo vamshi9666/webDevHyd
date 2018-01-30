@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import btn from '../src/btn-con';
-import { Button } from 'react-bootstrap';
+import { Button, ButtonToolbar } from 'react-bootstrap';
 import './css/App.css';
 
 class App extends Component {
@@ -21,8 +21,15 @@ class App extends Component {
                   Full Stack Web Development . Web APIs . UI/UX . MVC
                   </h3>
                </ul>
-               <btn/>
-
+               <hr></hr>
+               <ButtonToolbar className="btn-con" >
+                 <Button bsSize="large" >facebook</Button>
+                 <Button bsSize="large" >twitter</Button>
+                 <Button bsSize="large" >meet-up</Button>
+                 <Button bsSize="large" >git-hub</Button>
+              
+               </ButtonToolbar>
+             
           </div>
       </div>
     );

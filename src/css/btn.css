@@ -1,5 +1,8 @@
 .but_con{
     display: flex;
     flex-direction: row;
-    
+
+}
+.btn{
+    color: blue
 }
