@@ -1,8 +1,21 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './css/index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
+class Total extends Component{
+    render(){
+        return(
+            <div className="bg" >
+                <div className="intro">
+                   <App/>
+                </div>
+            </div>
 
-ReactDOM.render(<App />, document.getElementById('root'));
+        );
+
+    }
+}
+
+ReactDOM.render(<Total/>, document.getElementById('root'));
 registerServiceWorker();

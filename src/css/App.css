@@ -1,0 +1,14 @@
+.bg{
+  max-width: 100%;
+  max-height: 1000px;
+}
+.intro{
+  display: flex;
+  flex-direction: column;
+
+}
+.intro-font{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: antiquewhite;
+  font-size-adjust: inherit;
+}
