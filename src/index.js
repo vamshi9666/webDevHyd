@@ -6,11 +6,13 @@ import registerServiceWorker from './registerServiceWorker';
 class Total extends Component{
     render(){
         return(
-            <div className="bg" >
+         <div className="img-fluid bg" >   
+            <div className="body img-fluid" >
                 <div className="intro">
                    <App/>
                 </div>
             </div>
+         </div>   
 
         );
 
