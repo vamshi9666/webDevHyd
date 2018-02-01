@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import btn from '../src/btn-con';
 import { Button, ButtonToolbar } from 'react-bootstrap';
+import { Timeline } from 'react-twitter-widgets';
 import './css/App.css';
 import fbLogo from '../src/assets/index.png';
 import twiLogo from '../src/assets/twi.png';
@@ -39,13 +40,20 @@ class App extends Component {
                <hr/>
                <div className="feed-con" >
                  <div className="fb-feed" >
-                 <div class="fb-page" data-href="https://www.facebook.com/webdevhyd" data-tabs="timeline" data-width="1100" data-height="200" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/webdevhyd" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/webdevhyd">Web Developers Hyderabad</a></blockquote></div>
+                 <div class="fb-page" data-href="https://www.facebook.com/webdevhyd" data-tabs="timeline" data-width="1100" data-height="400" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/webdevhyd" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/webdevhyd">Web Developers Hyderabad</a></blockquote></div>
                  </div>
                  <div className="twi-feed" >
-                   <a class="twitter-timeline" data-width="400" data-height="500" href="https://twitter.com/vamshik10139492?ref_src=twsrc%5Etfw">Tweets by vamshik10139492</a>
-                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>   
-                
-                 
+                 <Timeline
+    dataSource={{
+      sourceType: 'profile',
+      screenName: 'webdevhyd'
+    }}
+    options={{
+      username: 'webdevhyd',
+      height: '400'
+    }}
+    onLoad={() => console.log('Timeline is loaded!')}
+  />
                </div>
              
           </div>
