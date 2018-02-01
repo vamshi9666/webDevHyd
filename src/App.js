@@ -42,8 +42,8 @@ class App extends Component {
                  <div class="fb-page" data-href="https://www.facebook.com/webdevhyd" data-tabs="timeline" data-width="1100" data-height="200" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/webdevhyd" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/webdevhyd">Web Developers Hyderabad</a></blockquote></div>
                  </div>
                  <div className="twi-feed" >
-                 <a class="twitter-timeline" data-width="400" data-height="500" href="https://twitter.com/vamshik10139492?ref_src=twsrc%5Etfw">Tweets by vamshik10139492</a>
-                  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>   
+                   <a class="twitter-timeline" data-width="400" data-height="500" href="https://twitter.com/vamshik10139492?ref_src=twsrc%5Etfw">Tweets by vamshik10139492</a>
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>   
                 
                  
                </div>
