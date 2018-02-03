@@ -44,15 +44,15 @@ class App extends Component {
                  </div>
                  <div className="twi-feed" >
                  <Timeline
-    dataSource={{
-      sourceType: 'profile',
-      screenName: 'webdevhyd'
-    }}
-    options={{
-      username: 'webdevhyd',
-      height: '400'
-    }}
-    onLoad={() => console.log('Timeline is loaded!')}
+                    dataSource={{
+                      sourceType: 'profile',
+                      screenName: 'webdevhyd'
+                    }}
+                    options={{
+                      username: 'webdevhyd',
+                      height: '400'
+                    }}
+                    onLoad={() => console.log('Timeline is loaded!')}
   />
                </div>
              
